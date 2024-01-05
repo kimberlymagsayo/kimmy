@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>🔷 Log in Page</title>
+    <title>Log in Page</title>
     <link rel="stylesheet" href="css/kimm.css">
 </head>
 <center>
@@ -10,26 +10,27 @@
     <body>
         <section>
             <div class="login-box">
-                <form action="index.html">
+                <form action="aboutpage.html"></form>
 
-                    <center>
-                        <h1>Login</h1>
-                        <form id="login-form">
-                            <div class="final">
-                                <label for="username">Username:</label>
-                                <input type="text" id="username" name="username" required><br><br><br>
-                                <label for="password">Password:</label>
-                                <input type="password" id="password" name="password" required><br><br><br>
-                            </div>
-                            <div class="options">
-                                <label>
-                                    <input type="checkbox" name="remember" id="remember"> Remember Me
-                                </label>
-                                <a href="forgot-password.html">Forgot Password?</a>
-                            </div>
-                            <button type="submit">Login</button>
 
-                        </form>
+                <center>
+                    <h1>Login</h1>
+                    <form id="login-form">
+                        <div class="final">
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="username" required><br><br><br>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required><br><br><br>
+                        </div>
+                        <div class="options">
+                            <label>
+                                <input type="checkbox" name="remember" id="remember"> Remember Me
+                            </label>
+                            <a href="forgot-password.html">Forgot Password?</a>
+                        </div>
+                        <button type="submit">Login</button>
+
+                    </form>
         </section>
 
         <script>
@@ -40,7 +41,7 @@
                 // Simplified check for a valid username and password
                 if (username === "kimberlymagsayo@gmail.com" && password === "jossiemagsayo") {
 
-                    window.location.href = "content://com.android.externalstorage.documents/tree/primary%3Ahtml%20practice/document/primary%3Ahtml%20practice%2FNewfold%2Fjsjsjsjsjsj.html";
+                    window.location.href = "aboutpage.html";
                 } else {
                     alert("Invalid username or password. Please try again.");
                 }
